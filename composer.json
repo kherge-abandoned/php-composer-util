@@ -1,0 +1,39 @@
+{
+    "name": "herrera-io/composer-util",
+    "description": "A library consisting of Composer utility functions.",
+    "keywords": ["composer"],
+    "homepage": "http://herrera-io.github.com/php-composer-util",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Herrera",
+            "email": "kevin@herrera.io",
+            "homepage": "http://kevin.herrera.io"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/herrera-io/php-composer-util/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "herrera-io/json": "~1.0"
+    },
+    "require-dev": {
+        "herrera-io/phpunit-test-case": "1.*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Herrera\\Composer\\Util": "src/lib"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "src/vendors"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
